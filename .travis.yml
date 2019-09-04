@@ -15,7 +15,7 @@ env:
     GOFLAGS=-mod=vendor
 
 install:
-  # This script is used by the Travis build to install a cookie for
+  # This script is used by the Travis build to install a cookie for 2
   # go.googlesource.com so rate limits are higher when using `go get` to fetch
   # packages that live there.
   # See: https://github.com/golang/go/issues/12933
